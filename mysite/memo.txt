@@ -1,0 +1,38 @@
+## 用語
+
+urlresolverでURLを解決する。メール配達人のようなもの。
+
+
+## モデルの作成
+
+modlesを書いて、makemigrations <app>を実行するとマイグレーションファイルが作られる。
+migrate <app> を呼べばマイグレーションされる。
+
+
+## FAQ
+
+- Railsのdbconsoleはどうやるの？
+
+
+
+## Tips
+
+
+Djangoのスニペットの設定方法
+
+vim-snippets/UltiSnipsにスニペットがあるのでそれを使わせてもらう。
+
+neosnippetに認識してもらうためにディレクトリを追加する（カンマ区切りで複数のディレクトリが指定できることを利用する）
+> let g:neosnippet#snippets_directory='~/.vim/plugged/vim-snippets/snippets,~/.vim/plugged/vim-snippets/UltiSnipps'
+
+
+filetypeがdjangoじゃないと反応しないのでfiletypeを設定する。
+Pythonであることも認識して欲しいので複数指定する
+
+http://d.hatena.ne.jp/h1mesuke/20110317/p1
+
+> :set filetype=python.django
+
+これでリロードすれば無事Djangoのスニペットも効くようになる。
+
+
