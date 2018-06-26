@@ -36,3 +36,4 @@ http://d.hatena.ne.jp/h1mesuke/20110317/p1
 これでリロードすれば無事Djangoのスニペットも効くようになる。
 
 
+PythonAnywhere API Token: 95b3cbf363bac8e4b83daaa300bdb15b646ed49d
